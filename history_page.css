@@ -1,0 +1,232 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid black;
+    height: 100vh; width: 100vw;
+    overflow: hidden;
+    background-color: #eee;
+}
+.upper{
+    height: 13%; width: 100vw;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 205);
+}
+.upper_one{
+    width: 40%; height: 100%;
+}
+.upper_two{
+     width: 40%;
+     height: 100%;
+}
+ .circle{
+    border: 2px solid black;
+    height: 90px; width: 90px;
+    background-color: white;
+    border-radius: 50%;
+} 
+.balance{
+    border: 2px solid black;
+    width: 75%;
+    height: 35%;
+    border-radius: 18px;
+    margin-top: 2%;
+    margin-left: 22%;
+    background-color: white;
+}
+.upper_two p:nth-child(1){
+    margin: 6%;
+    font-size: 20px;
+}
+.w-1st-part p:nth-child(1){
+    margin-top: 3%;
+    margin-left: 6%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.c-1st-part p:nth-child(1){
+    margin-top: 3%;
+    margin-left: 6%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.w-3rd-part p:nth-child(1){
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.c-3rd-part p:nth-child(1){
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 auto;
+    align-self: center;
+}
+.boxes{
+    height: 20%;
+    display: flex;
+    position: relative;
+}
+.first{
+    height: 100%; width: 70%;
+}
+.second{
+    height: 100%; width: 30%;
+    /* position: relative; */
+    overflow: hidden;
+}
+ .winner{
+  height: 25%; width: 86%;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+.credit{
+    height: 25%;  width: 86%;
+    border: 2px solid black;
+    margin-top: 10%;
+    margin-left: 7%;
+}
+.navigation_bar{
+    height: 8%; width: 90%;
+    border: 2px solid black;
+    margin-top: 5%; margin-left: 5%;
+    border-radius: 20px; 
+}  
+ h2{
+    margin-left: 30%;
+    margin-top: 20%; 
+}
+.box1{
+    border: 2px solid black;
+    height: 130%; width: 130%;
+    background-color: blue;
+    bottom: 40%;
+    transform: rotate(40deg);
+    position: relative;
+    left: 50%;
+    border-bottom-left-radius: 35px; 
+}
+.box2{
+    border: 2px solid black;
+    height: 80px; width: 80px;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(83, 11, 11);
+    left: 13%;
+    bottom: 155%;
+}
+.box3{
+    border: 2px solid black;
+    height: 40px; width: 40px;
+    position: relative;
+    bottom: 200%;
+    background-color: skyblue;
+    border-radius: 50%;
+    right: 2%;
+}
+.w-1st-part{
+    height: 18%;
+    display: flex;
+    background-color: rgb(141, 141, 192);
+}
+.date{
+    height: 100%; width: 50%;
+}
+.time{
+    height: 100%; width: 50%; 
+}
+/* p{
+    margin-top: 5%;
+    margin-left: 15%;
+} */
+.w-2nd-part{
+    height: 64%;
+    display: flex;
+    background-color: rgb(234, 199, 186);
+}
+section{
+    position: absolute;
+}
+.first_box{
+    height: 16%; width: 10%;
+    left: 40%;
+    bottom: 47%;
+    transform: rotate(65deg);
+    background-color: rgb(244, 181, 159);
+    
+}
+.second_box{
+    height: 18%; width: 10%;
+    left: 50%;
+    bottom: 43%;
+    transform: rotate(80deg);
+    background-color: rgb(244, 181, 159);
+   
+}
+.third_box{
+    height: 16%; width: 50%;
+    font-size: 25px;
+   
+}
+.fourth_box{
+    height: 16%; width: 36%;
+    right: 7%;
+}
+.w-3rd-part{
+    height: 18%;
+    font-size: 20px;
+    background-color: red;
+}
+
+.c-1st-part{
+    height: 18%;
+    background-color: rgb(141, 141, 192);
+    display: flex;
+}
+.c_date{
+    height: 100%; width: 50%;
+}
+.c_time{
+    height: 100%; width: 50%; 
+}
+.c-2nd-part{
+    height: 64%;
+    display: flex;
+    background-color: rgb(234, 199, 186);
+}
+nav{
+    position: absolute;
+}
+.fifth{
+    height: 16%; width: 10%;
+    left: 40%;
+    bottom: 17%;
+    transform: rotate(65deg);
+    background-color: rgb(244, 181, 159);
+}
+.sixth{
+    height: 18%; width: 10%;
+    left: 50%;
+    bottom: 13%;
+    transform: rotate(80deg);
+    background-color: rgb(244, 181, 159);
+   
+}
+.c_description{
+    height: 16%; width: 50%;
+    font-size: 25px;
+   
+}
+.c_image{
+    height: 16%; width: 36%;
+    right: 7%;
+}
+
+.c-3rd-part{
+    height: 18%;
+    background-color: red;
+}
+
+
